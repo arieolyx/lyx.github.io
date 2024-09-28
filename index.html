@@ -2,10 +2,11 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
 </head>
 <body>
-    <h1>Welcome to Toronto!</h1>
+    <h1 class="font-effect-neon">Welcome to Toronto!</h1>
+    
     <p id="special">Toronto is Canada's largest city, a vibrant and multicultural metropolis.</p>
     
     
@@ -41,7 +42,6 @@
 
     <p>Downtown Toronto offers a breathtaking blend of modern skyscrapers and historic architecture, creating a unique skyline that is instantly recognizable. At the heart of it all stands the iconic CN Tower, soaring above the city and offering panoramic views of the bustling streets below and Lake Ontario in the distance. From the lively waterfront to the towering glass buildings, downtown Toronto is scenery reflects the city is dynamic energy. The Harbourfront area is a popular destination for walks along the lake, providing stunning views of the Toronto Islands and the city is evolving skyline. Whether it is the shimmering lights of the financial district at night or the tranquil beauty of Queen's Park surrounded by historic buildings, downtown Toronto's landscape captures the essence of urban vibrancy and natural beauty.</p>
 
-   
 
 
     <details>
@@ -91,7 +91,7 @@
 
 
     <h2>Want to Learn More? Leave Your Info Below:</h2>
-     <img src= "gif.gif"alt="Night" width=500/> 
+    <img src= "gif.gif"alt="Night" width=500/> 
 
     <form>
         <label for="firstname">First Name:</label><br>
@@ -104,15 +104,16 @@
     </form>
 
 
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
-Your browser does not support the HTML canvas tag.</canvas>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML canvas tag.</canvas>
 
-<script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.font = "30px italic";
-ctx.strokeText("Hello Toronto",10,50);
-</script>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px italic";
+        ctx.strokeText("Hello Toronto",10,50);
+    </script>
+
 
 
 </body>
